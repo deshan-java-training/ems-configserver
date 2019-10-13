@@ -1,0 +1,9 @@
+server:
+  port: 8092
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8093/oauth/check_token
+    client:
+      client-id: admin
+      client-secret: adminpass
